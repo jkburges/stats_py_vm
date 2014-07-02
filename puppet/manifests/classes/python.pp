@@ -4,7 +4,7 @@ class python {
         ubuntu: {
             package {
                 ["python-numpy", "python-scipy", "python-zmq",
-                 "python-matplotlib", "libicu48", "python-pip"]:
+                 "python-matplotlib", "libicu48", "python-pip", "python-mpltoolkits.basemap"]:
                     ensure => installed;
             }
             package { 'virtualenv':
